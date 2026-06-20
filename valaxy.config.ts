@@ -195,7 +195,7 @@ export default defineValaxyConfig({
     
     
     hero: {
-      title: 'AIOVTUE',
+      title: 'ZERO-VFX',
       motto: '雨是神的烟花',
       urls: [
         '/hero/awdsv.jpg',    //也可以换成连接，本地文件在public文件夹
@@ -232,7 +232,7 @@ export default defineValaxyConfig({
   
     navbar: [...mainNavItems],
     navbarOptions: {
-      title: ['AIOVTUE-', '雪'],
+      title: ['ZEROVFX-', '零'],
       subTitle: '雨是神的烟花',
       offset: 0,
       invert: ['home'],

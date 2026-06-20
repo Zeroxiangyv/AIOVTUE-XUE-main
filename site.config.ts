@@ -1,13 +1,13 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://daily.yybb.us',   //换成你自己的网站地址
+  url: 'https://aiovtue-xue-main.pages.dev',   //换成你自己的网站地址
   lang: 'zh-CN',
-  title: 'AIOVTUE',
-  subtitle: '雪',
+  title: 'ZERO-VFX',
+  subtitle: '零',
   author: {
-    name: 'AIOVTUE',
-    avatar: 'https://r2tc.20030327.xyz/file/博客/主题/1780655293662_avatar_me.jpg.PNG',
+    name: 'ZERO-VFX',
+    avatar: '/touxiang.png',
     status: {
       emoji: '🌸',
       message: '发呆ing...',
@@ -15,7 +15,7 @@ export default defineSiteConfig({
   },
   description: '雨是神的烟花',
 
-  favicon: '/favicon.png',  //文件在public文件夹
+  favicon: '/touxiang.png',  //文件在public文件夹
 
   social: [
     {
@@ -54,7 +54,7 @@ export default defineSiteConfig({
 
   search: {
     enable: true,  //启用搜索
-    type: 'fuse',
+    provider: 'fuse',
   },
   fuse: {
     /**
