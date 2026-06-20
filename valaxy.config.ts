@@ -90,7 +90,7 @@ export default defineValaxyConfig({
 
   vite: {
     plugins: [twikooLocalPlugin(), disableSsgHydration(), vaFoucLoader({
-      avatar: '/favicon.png',
+      avatar: '/touxiang.png',
       title: siteConfig.title,
       subtitle: siteConfig.subtitle,
       primary: themePrimary,
@@ -137,7 +137,7 @@ export default defineValaxyConfig({
         {
           label: '--- 主域名 ---',
           lines: [
-            'aiovtue-xue-main.pages.dev',
+            'https://aiovtue-xue-main.pages.dev',
             // 'daily.20030327.xyz',
             // 也支持对象：{ text: '显示文字', url: 'https://example.com' }
           ],
@@ -213,15 +213,15 @@ export default defineValaxyConfig({
       enableHitokoto: true, // 启用一言
       waveTheme: 'horizontal', // 设置水平波纹主题
     },
-    
-  postFooter: {
-    navigationMerge: true // 合并导航显示
-  }, 
-    
-   footer: {
+
+    postFooter: {
+      navigationMerge: true // 合并导航显示
+    },
+
+    footer: {
       powered: false,
       since: 2026,
-      runtimeSince: '2026-6-01',    //网站运行开始时间
+      runtimeSince: '2026-6-20',    //网站运行开始时间
       icon: {
         animated: true,
         url: 'https://your-website.com',
