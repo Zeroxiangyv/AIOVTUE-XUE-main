@@ -150,6 +150,13 @@ declare module 'vue-router/auto-routes' {
       { page: ParamValue<false> },
       | never
     >,
+    '/posts/视频图片测试': RouteRecordInfo<
+      '/posts/视频图片测试',
+      '/posts/%E8%A7%86%E9%A2%91%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/hello-world': RouteRecordInfo<
       '/posts/hello-world',
       '/posts/hello-world',
@@ -389,6 +396,14 @@ declare module 'vue-router/auto-routes' {
         | never
       pathParamNames:
         | 'page'
+    }
+    'pages/posts/视频图片测试.md': {
+      routes:
+        | '/posts/视频图片测试'
+      views:
+        | never
+      pathParamNames:
+        | never
     }
     'pages/posts/hello-world.md': {
       routes:
