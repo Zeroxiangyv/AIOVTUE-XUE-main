@@ -137,7 +137,7 @@ export default defineValaxyConfig({
         {
           label: '--- 主域名 ---',
           lines: [
-            'daily.yybb.us',
+            'aiovtue-xue-main.pages.dev',
             // 'daily.20030327.xyz',
             // 也支持对象：{ text: '显示文字', url: 'https://example.com' }
           ],
