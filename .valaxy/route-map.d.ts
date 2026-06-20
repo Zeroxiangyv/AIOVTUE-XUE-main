@@ -254,7 +254,7 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-sakura@0.10.2__b460f0ea61b3f11e05f11f64ef225da3/node_modules/valaxy-theme-sakura/pages/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-sakura@0.10.2__26c2e4e40056577f3391180093fd2e8a/node_modules/valaxy-theme-sakura/pages/index.vue': {
       routes:
         | '/'
       views:
@@ -262,7 +262,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.28.10_@babel+parse_50c88cc7f119ea619648244f9c981fc3/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@0.28.10_@babel+parse_de6c62875951dae520b9ba415ab31be1/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
