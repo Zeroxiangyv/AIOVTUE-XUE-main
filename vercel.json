@@ -1,0 +1,10 @@
+{
+  "cleanUrls": true,
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/**/*.ts": {
+      "includeFiles": "server/**,types/**,utils/**"
+    }
+  }
+}

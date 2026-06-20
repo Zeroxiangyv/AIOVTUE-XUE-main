@@ -1,0 +1,39 @@
+[build]
+publish = "dist"
+command = "pnpm run build"
+
+[build.environment]
+NODE_VERSION = "20"
+
+# 将 /posts/foo 映射到 posts/foo.html，避免 fallback 到首页
+[build.processing.html]
+pretty_urls = true
+
+[[redirects]]
+from = "/baidu_verify_codeva-WzoodkR3hT.html"
+to = "/baidu_verify_codeva-WzoodkR3hT.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/api/album-webdav/*"
+to = "/.netlify/functions/album-webdav/:splat"
+status = 200
+
+[[headers]]
+for = "/index.html"
+
+[headers.values]
+Cache-Control = "no-cache"
+
+[[headers]]
+for = "/posts/*"
+
+[headers.values]
+Cache-Control = "no-cache"
+
+[[headers]]
+for = "/manifest.webmanifest"
+
+[headers.values]
+Content-Type = "application/manifest+json"
