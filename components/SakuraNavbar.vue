@@ -81,9 +81,9 @@ const headerClass = computed(() => [
 
       <slot name="tool">
         <div h-full print:op0 flex="~ center" class="sakura-navbar-tools">
-          <SakuraToggleDark v-if="navbarOptions.tools.includes('toggleDark')" />
-          <SakuraToggleLocale v-if="navbarOptions.tools.includes('toggleLocale')" />
-          <SakuraSearchTrigger v-if="navbarOptions.tools.includes('search')" />
+          <SakuraToggleDark v-if="navbarOptions.tools?.includes('toggleDark')" />
+          <SakuraToggleLocale v-if="navbarOptions.tools?.includes('toggleLocale')" />
+          <SakuraSearchTrigger v-if="navbarOptions.tools?.includes('search')" />
           <div v-if="themeConfig.sidebarOptions?.position === 'right'" i-ri-menu-4-fill @click="sakuraAppStore.sidebar.toggle" />
           <slot name="tool-ext" />
         </div>

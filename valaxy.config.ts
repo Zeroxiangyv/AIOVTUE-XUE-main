@@ -238,6 +238,7 @@ export default defineValaxyConfig({
       invert: ['home'],
       showMarker: false,
       autoHide: ['home'],
+      tools: ['toggleDark', 'search'],
     },
 
  

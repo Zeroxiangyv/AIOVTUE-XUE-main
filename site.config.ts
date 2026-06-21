@@ -55,6 +55,7 @@ export default defineSiteConfig({
   search: {
     enable: true,  //启用搜索
     provider: 'fuse',
+    type: 'fuse',   //主题组件通过 search.type 判断搜索类型
   },
   fuse: {
     /**
