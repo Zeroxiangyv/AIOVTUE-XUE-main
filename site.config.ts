@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://aiovtue-xue-main.pages.dev',   //换成你自己的网站地址
+  url: 'https://zerovfx.cc.cd',   //换成你自己的网站地址
   lang: 'zh-CN',
   title: 'ZERO-VFX',
   subtitle: '零',
